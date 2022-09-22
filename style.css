@@ -4,7 +4,6 @@
 
 :root {
     margin: 0;
-    transition-duration: 1s;
 }
 
 body {
@@ -79,21 +78,22 @@ li:hover::after {
     height:550px;
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 15px;
+    padding: 50px;
 }
 
 .upper {
-    line-height: 1.5;
+    line-height: 1.2;
 }
 
 #first, #third {
     color: black;
-    font-size: 40px;
+    font-size: 35px;
 }
 
 #second {
     color: #53ed6a;
     font-weight: bolder;
-    font-size: 62px;
+    font-size: 55px;
 }
 
 .middle {
