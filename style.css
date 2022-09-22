@@ -4,6 +4,8 @@
 
 :root {
     margin: 0;
+    transition-duration: 1s;
+
 }
 
 body {
@@ -79,6 +81,28 @@ li:hover::after {
     border: 1px solid rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     padding: 50px;
+}
+
+.left-header {
+    animation: fadeanime ease-in 1.2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeanime {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.right-header {
+    animation: fadeimg ease-in 0.8s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeimg {
+    0% {opacity: 0;}
+    50% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 .upper {
